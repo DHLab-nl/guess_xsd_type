@@ -18,8 +18,7 @@ def guess_xsd_type():
 	if var.startswith('-'): # removes 'negative' sign. assuming it doesn't matter for strings
 		var = var[1:]
 	
-	# only numbers?
-	if var.isdigit():
+	if var.isdigit():	# only numbers?
 		'''
 		Years are a tough to guess from a single element.
 		In the future, might guess it from a series with
@@ -46,10 +45,10 @@ def guess_xsd_type():
 		else:
 			varType = 'string'
 	
-	elif var.startswith('http')==True:	#perhaps a URI
+	elif var.startswith('http')==True:	# perhaps a URI
 			varType = 'anyURI'
 
-	else:					#catchall
+	else:					# catchall
 			varType = 'string'
 
 	print('"'+var+'"'+'^^XSD:'+varType)
