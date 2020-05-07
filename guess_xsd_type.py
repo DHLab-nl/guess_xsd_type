@@ -30,7 +30,7 @@ def guess_xsd_type():
 		else:
 			varType = 'integer'
 	
-	elif var.startswith('http')==False and var.count('.')==1: 	# perhaps a float, circumventing for http://bla.com
+	elif var.startswith('http')==False and var.count('.')==1: 	# perhaps a decimal, circumventing for http://bla.com
 		twoParts = var.split('.')
 		if twoParts[0].isdigit() and twoParts[1].isdigit():
 			varType = 'decimal'
