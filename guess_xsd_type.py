@@ -2,7 +2,7 @@ def guess_xsd_type():
 	'''
 	The purpose of this function is to guestimate a primitive XSD datatype
 	as defined in section 3.3 here: https://www.w3.org/TR/xmlschema11-2/
-	Currently covers: string, decimal (and integer), date, anyURI... and I stupidly only thought of positive numbers! 
+	Currently covers: string, decimal (and integer), date, anyURI... 
 	'''
 
 	import re
