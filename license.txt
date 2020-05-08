@@ -1,5 +1,3 @@
 This product is licensed under CC-BY-SA. 
 
-See https://creativecommons.org/licenses/by-sa/4.0/ for a human readable document 
-
-and https://creativecommons.org/licenses/by-sa/4.0/legalcode for the legal interpretation.
+Read what this means in [plain english](https://creativecommons.org/licenses/by-sa/4.0/) or more [legal terms](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
