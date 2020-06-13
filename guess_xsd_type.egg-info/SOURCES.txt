@@ -1,0 +1,12 @@
+README.md
+setup.py
+guess_xsd_type.egg-info/PKG-INFO
+guess_xsd_type.egg-info/SOURCES.txt
+guess_xsd_type.egg-info/dependency_links.txt
+guess_xsd_type.egg-info/top_level.txt
+src/__init__.py
+src/guess_one_shot.py
+src/guess_xsd_user_input.py
+src/repeated_one_shot.py
+src/xsd_guess.py
+src/xsd_guess_single.py
